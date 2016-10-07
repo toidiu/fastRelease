@@ -27,4 +27,3 @@ secret.conf
 SecretUtilObj.scala
 docs/certs
 docs/backup
-release*.sh
