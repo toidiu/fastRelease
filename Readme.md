@@ -42,3 +42,7 @@ variables such as postges url and password.
 - script.sh: contains general functions used during the release
 - Dockerfile: the docker configuration to build an image from two jar files
 - releaseProdScript.sh: is the single executable that is meant to run on your prod machine. It builds and runs the docker image
+
+#### Next step
+Ideally this should be used to deploy multiple environments. You should be able to create 
+a `deployStage.sh` that launches to your staging environment.
