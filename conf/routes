@@ -1,0 +1,16 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+
+
+
+#WEB APP===================================
+#Route all non api paths are sent to the web app declared in the Global object
+#ASSETS====================================
+GET        /assets/*file        controllers.Assets.at(path="/public", file)
+GET        /favicon.ico         controllers.Assets.at(path="/public/images", file="favicon.ico")
+
+
+#TEST--------
+GET        /                    controllers.TestController.test
