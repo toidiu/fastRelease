@@ -1,11 +1,11 @@
-name := "blog"
+name := "fastRelease"
 version := "v1.0"
 
 routesGenerator := InjectedRoutesGenerator
 
 scalaVersion := "2.11.8"
 
-lazy val `blog` = (project in file(".")).enablePlugins(PlayScala)
+lazy val `fastRelease` = (project in file(".")).enablePlugins(PlayScala)
 
 
 resolvers ++= Seq("snapshots", "releases").map(Resolver.sonatypeRepo)

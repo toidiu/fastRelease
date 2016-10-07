@@ -4,7 +4,7 @@ source script.sh
 #------------------Execute
 outDst="out"
 host="blog.toidiu.com";
-jarRegex="blog-assembly-v1*.jar"
+jarRegex="fastRelease-assembly-v1*.jar"
 currentVersion=$(head build.sbt | grep -o 'v1.*[0-9]')
 oldVersion=$(cat $outDst/$host/appVersion)
 buildPath=target/scala-2.11
