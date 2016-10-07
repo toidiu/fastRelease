@@ -2,7 +2,8 @@
 
 The goal is to break the app into two separate jars, app code and dependency code. The app jar is 
 usually much smaller than the dependency jar and allows for quicker releases. The following configuration
-is meant to work from a single machine/laptop but can be modified for other environments.
+is meant to work from a single machine/laptop but can be modified for other environments. It used the 
+[`sbt-assembly`](https://github.com/sbt/sbt-assembly) plugin.
 
 *The following assumes you are trying to deploy a Scala/Playframework app. To adapt to other envoronments
 change the main class in the Dockerfile to the appropriate main class.*
